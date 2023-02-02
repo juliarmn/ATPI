@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
-int main(void) { //variáveis:
+int main(void) { 
+  setlocale(LC_ALL, "Portuguese");
+  //variáveis:
   float KWH, preço;
   int idade, residencias;
   preço=0.1; //não é necessário colocar, o valor vai modificar sempre
