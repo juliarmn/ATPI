@@ -6,6 +6,7 @@ pessoas aposentadas.*/
 #include <locale.h>
 
 int main(void) {
+  setlocale(LC_ALL, "Portuguese");
   const float valor = 0.1; //Só para teste - desnecessário
   float KWH;
   int idade;
