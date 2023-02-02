@@ -15,11 +15,11 @@ int main(void) {
       printf ("\nDigite a idade do morador\n");
       scanf ( " %d", &idade);
       if (idade >= 70) {
-        preço= KWH*0.1*0.75;
+        preço = KWH*0.1*0.75;
         printf ("\nO valor a ser pago na residência %d é: %.2f\n", i, preço);
       } 
       else {
-        preço=KWH*0.1;
+        preço = KWH*0.1;
         printf ("\nO valor a ser pago na residência %d é: %.2f\n", i, preço);
       }
   }
